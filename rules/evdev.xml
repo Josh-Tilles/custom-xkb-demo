@@ -1408,6 +1408,12 @@
         </variant>
         <variant>
           <configItem>
+            <name>dvrh</name>
+            <description>English (DvorHack)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>rus</name>
             
             <shortDescription>ru</shortDescription>
