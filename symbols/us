@@ -625,7 +625,7 @@ xkb_symbols "dvrh" {
 
     //             Unmodified       Shift           AltGr            Shift+AltGr
     // symbols row, left side
-    key <TLDE> { [ dollar,          asciitilde,     dead_tilde                  ] };
+    key <TLDE> { [ grave,           asciitilde,     dead_grave,      dead_tilde ] };
     key <AE01> { [ ampersand,       percent                                     ] };
     key <AE02> { [ bracketleft,     7,              currency                    ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
     key <AE03> { [ braceleft,       5,              cent                        ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
@@ -639,7 +639,7 @@ xkb_symbols "dvrh" {
     key <AE09> { [ plus,            4                                           ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
     key <AE10> { [ bracketright,    6                                           ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
     key <AE11> { [ exclam,          8,              exclamdown,      U2E18      ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };  // reversed interrobang
-    key <AE12> { [ numbersign,      grave,          dead_grave                  ] };
+    key <AE12> { [ numbersign,      dollar                                      ] };
     key <BKSP> { [ BackSpace,       BackSpace                                   ] };
 
     // upper row, left side
