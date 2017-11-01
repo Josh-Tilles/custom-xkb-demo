@@ -643,7 +643,7 @@ xkb_symbols "dvrh" {
     key <BKSP> { [ BackSpace,       BackSpace                                   ] };
 
     // upper row, left side
-    key <AD01> { [ semicolon,       colon,          dead_diaeresis              ] };
+    key <AD01> { [ colon,           semicolon,      dead_diaeresis              ] };
     key <AD02> { [ comma,           less,           guillemotleft,   U201C      ] };
     key <AD03> { [ period,          greater,        guillemotright,  U201D      ] };
     key <AD04> { [ p,               P,              paragraph,       section    ] };
